@@ -9,16 +9,16 @@ function App() {
 
   const candidats = [
     {
-      percentage: 75,
-      image: "/i,
-      party: "PARTY",
-      name: "NOM DU CANDIDAT",
+      percentage: 90,
+      image: "/img/Kamto.jpeg",
+      party: "MRC",
+      name: "Maurice KAMTO",
     },
     {
-      percentage: 60,
-      image: "https://via.placeholder.com/100",
-      party: "PARTY 2",
-      name: "AUTRE CANDIDAT",
+      percentage: 10,
+      image: "/img/PaulBiya.jpeg",
+      party: "RDPC",
+      name: "Paul BIYA",
     },
   ];
 

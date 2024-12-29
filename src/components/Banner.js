@@ -5,18 +5,15 @@ import "../styles/Banner.css";
 function Banner({ candidats }) {
   return (
     <div className="banner">
-      <h1>Liste des Candidats</h1>
-      <div className="candidats-container">
         {candidats.map((candidat, index) => (
           <Candidat
             key={index}
-            score={candidat.score}
+            percentage={candidat.percentage}
             image={candidat.image}
             name={candidat.name}
-            nomParti={candidat.nomParti}
+            party={candidat.party}
           />
         ))}
-      </div>
     </div>
   );
 }

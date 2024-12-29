@@ -1,0 +1,64 @@
+.candidat {
+  text-align: center;
+  padding: 15px;
+}
+
+.candidat-header {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.candidat-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 10px solid #007bff;
+}
+
+.percentage-circle {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border: 2px solid gold;
+  border-radius: 50%;
+  padding: 5px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.percentage-text {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.candidat-bar {
+  margin-top: 20px;
+  height: 4px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: #007bff; /* Couleur de progression */
+  border-radius: 10px;
+}
+
+.candidat-info {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.candidat-party {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5px;
+}

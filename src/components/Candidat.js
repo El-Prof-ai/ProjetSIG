@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Candidat.css';
 
 function Candidat({ percentage, image, party, name }) {
   return (
@@ -13,8 +14,8 @@ function Candidat({ percentage, image, party, name }) {
         <div className="bar-fill" style={{ width: `${percentage}%` }}></div>
       </div>
       <div className="candidat-info">
-        <p className="party-name">{party}</p>
-        <p className="candidat-name">{name}</p>
+        <p className="candidat-party">{party}</p>
+        <p>{name}</p>
       </div>
     </div>
   );

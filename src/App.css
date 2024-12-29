@@ -1,0 +1,45 @@
+.app {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.title{
+  font-family: 'Saira Stencil One', sans-serif;
+}
+.divider,
+.dividerLong{
+  border: none; /* Supprime la bordure par défaut */
+  height: 2px; /* Épaisseur de la ligne */
+  background-color: whitesmoke; /* Couleur de la ligne */
+}
+.divider{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.banner {
+  color: black;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.left-component,
+.right-component {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+}
+
+.left-component {
+  margin-right: 5px;
+}
+
+.right-component {
+  margin-left: 5px;
+}

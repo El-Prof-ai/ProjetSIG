@@ -3,7 +3,7 @@ import Title from "./Title";
 import Banner from "./Banner";
 import LeftComponent from "./LeftComponent";
 import RightComponent from "./RightComponent";
-import './App.css';
+import '../styles/App.css';
 
 function App() {
   return (

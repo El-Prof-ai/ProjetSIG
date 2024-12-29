@@ -2,7 +2,7 @@ import React from "react";
 
 function Title() {
   return (
-    <div className="banner">
+    <div>
       Elections présidentielles 2025
     </div>
   );

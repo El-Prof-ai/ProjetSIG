@@ -1,6 +1,6 @@
 .app {
   background-color: white;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
@@ -11,9 +11,9 @@
 
 .divider,
 .dividerLong{
-  border: none; /* Supprime la bordure par défaut */
-  height: 2px; /* Épaisseur de la ligne */
-  background-color: whitesmoke; /* Couleur de la ligne */
+  border: none; 
+  height: 2px; 
+  background-color: whitesmoke; 
 }
 
 .divider{

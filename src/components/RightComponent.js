@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/RightComponent.css"
 
 function RightComponent() {
   return (
     <div className="right-component">
-      <p>This is the Right Component</p>
+      <p>C'est ici que la carte doit apparaître</p>
     </div>
   );
 }

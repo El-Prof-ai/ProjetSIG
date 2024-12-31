@@ -3,7 +3,7 @@ import React from "react";
 function Title() {
   return (
     <div>
-      Elections présidentielles 2025
+      Élections présidentielles 2025
     </div>
   );
 }

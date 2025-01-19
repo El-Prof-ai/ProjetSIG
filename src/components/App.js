@@ -33,6 +33,7 @@ function App() {
       name: "Josue OSIH",
     },
   ];
+  const targetDate = "2025-02-01T12:00:00";
   const nomCirconscription = "Cameroun";
   const Circonscription = "Régions";
   const data = [
@@ -56,8 +57,8 @@ function App() {
 
   return (
     <div className="app">
-      <div className="title">
-        <Title />
+      <div>
+        <Title targetDate={targetDate}/>
       </div>
       <hr className="dividerLong" />
       <Banner candidats={candidats}/>
